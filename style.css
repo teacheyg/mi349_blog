@@ -3,8 +3,8 @@ html{
 }
 body {
     font-family:Georgia, 'Times New Roman', Times, serif
-    margin: 25px;
-    padding: 25px
+    margin: 15px;
+    padding: 15px
     color: black;
     border-top: 5px solid black;
     background-color: white;
@@ -23,17 +23,15 @@ p {
     border-bottom: 2px dotted #424242;
 }
 img {
-    float: inherit;
     border: 3px solid #424242;
     border-radius: 3px;
     padding: 5px;
- 
 }
 strong {
     color: black;
 }
 a {
-    color: darkred;
+    color: white;
 }
 table {
     border: 2px solid black;
@@ -55,6 +53,35 @@ button {
 body {
     border-bottom: 5px solid black;
 }
-.sidebar {
-    position: sticky
+section {
+    display: flex;
+}
+
+article:nth-of-type(1) {
+    flex: 150px;
+}
+article:nth-of-type(2) {
+    flex: 100px;  
+}
+
+#nav {
+  background-color: black;
+}
+#nav a {
+    float:left;
+    text-align: center;
+    padding: auto;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+}
+.float {
+    float: left;
+    padding: 10px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+.ht {
+   float: right;
 }
