@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
     margin: 25px;
     padding: 25px
     color: black;
@@ -21,9 +21,16 @@ p {
 }
 
 #blog {
-    border-top: 2px dotted lightgrey;
+    border-top: 2px dotted #424242;
 }
 
 .blog-post {
-    border-bottom: 2px dotted lightgrey;
+    border-bottom: 2px dotted #424242;
+}
+
+img {
+    border: 3px solid #424242;
+    border-radius: 3px;
+    padding: 5px;
+    width: 220px;
 }
