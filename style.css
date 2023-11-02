@@ -70,7 +70,7 @@ article:nth-of-type(2) {
 #nav a {
     float:left;
     text-align: center;
-    padding: 10px;
+
 }
 .sticky {
     position: sticky;
