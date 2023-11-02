@@ -27,7 +27,7 @@ img {
     border: 3px solid #424242;
     border-radius: 3px;
     padding: 5px;
-    width: 225px;
+ 
 }
 strong {
     color: black;
@@ -48,4 +48,13 @@ th {
 td {
     border: 2px solid black;
     text-align: center;
+}
+button {
+    color: darkred;
+}
+body {
+    border-bottom: 5px solid black;
+}
+.sidebar {
+    position: sticky
 }
