@@ -16,12 +16,7 @@ h1 {
 p {
     line-height: 1.4em;
 }
-#blog {
-    border-top: 2px dotted #424242;
-}
-.blog-post {
-    border-bottom: 2px dotted #424242;
-}
+
 img {
     border: 3px solid #424242;
     border-radius: 3px;
